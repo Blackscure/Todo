@@ -6,3 +6,28 @@
         color: var(--text-color);
         background-color: #3681be;
     }
+    
+    .container {
+        text-align: center;
+        width: 40%;
+        margin: auto;
+        color: #181818;
+        min-height: 90vh;
+        margin-top: 2%;
+    }
+    
+    .todo {
+        width: 100%;
+        padding-bottom: 15px;
+        background: #4f6cc4;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        color: #ffffff;
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+        font-size: 80px;
+        margin-top: 0;
+        padding-left: 10px;
+    }
