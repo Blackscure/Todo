@@ -24,3 +24,10 @@
         border-top-right-radius: 20px;
         color: #ffffff;
     }
+    
+    h1 {
+        margin-bottom: 20px;
+        font-size: 80px;
+        margin-top: 0;
+        padding-left: 10px;
+    }
