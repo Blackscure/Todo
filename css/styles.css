@@ -75,3 +75,7 @@
         text-decoration: none;
         color: black;
     }
+    
+    #todo li input {
+        margin-right: 10px;
+    }
