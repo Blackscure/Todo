@@ -70,3 +70,8 @@
     #todo li.completed {
         text-decoration: line-through;
     }
+    
+    #todo li.uncompleted {
+        text-decoration: none;
+        color: black;
+    }
