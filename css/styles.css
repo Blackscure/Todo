@@ -6,3 +6,12 @@
         color: var(--text-color);
         background-color: #3681be;
     }
+    
+    .container {
+        text-align: center;
+        width: 40%;
+        margin: auto;
+        color: #181818;
+        min-height: 90vh;
+        margin-top: 2%;
+    }
