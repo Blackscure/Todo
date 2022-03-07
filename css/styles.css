@@ -47,3 +47,7 @@
         background-color: #ffffff;
         overflow-x: scroll;
     }
+    
+    #todo {
+        padding: 0 10px 0 10px;
+    }
