@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>rud Application</title>
+    <title>Crud Application</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
 
@@ -24,12 +24,12 @@
                             <form onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off" class="input-form" name="StudentForm">
                                 <div>
                                     <label>Roll Number </label><label class="validation-error hide" id="RollValidationError">*Input exact 6 - digits number.</label>
-                                    <input type="text" name="roll" id="roll" name="roll">
+                                    <input type="text" name="roll" id="roll" name="roll" placeholder="use aleast 6-digits" style="font-size: x-small;">
                                 </div>
                                 <br>
                                 <div>
                                     <label>Name </label><label class="validation-error hide" id="NameValidationError">*Input only Alphabets.</label>
-                                    <input type="text" name="name" id="name" name="name">
+                                    <input type="text" name="name" id="name" name="name" placeholder="Enter Your Name" style="font-size: x-small;">
                                 </div>
                                 <br>
                                 <div>
@@ -43,7 +43,7 @@
                                 <br>
                                 <div>
                                     <label>Standard </label><label class="validation-error hide" id="StandardValidationError">*Input only Roman Numerals.</label>
-                                    <input type="text" name="standard" id="std" name="std">
+                                    <input type="text" name="standard" id="std" name="std" placeholder="use romans" style="font-size: x-small;">
                                 </div>
                                 <br>
                                 <div>
